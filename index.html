@@ -8,12 +8,23 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="김주안 홈">KJ<span>✦</span>A</a>
+    <nav class="site-nav" aria-label="페이지 메뉴">
+      <a href="#about">ABOUT</a>
+      <a href="#details">DETAILS</a>
+      <a href="mailto:kja_luxmea@naver.com">CONTACT</a>
+    </nav>
+    <span class="edition">NO. 01 / 2026</span>
+  </header>
+
   <main class="profile-page">
     <section class="intro" aria-labelledby="profile-name">
-      <p class="eyebrow">PERSONAL PROFILE / 2026</p>
-      <h1 id="profile-name">김주안<span class="dot">.</span></h1>
-      <p class="headline">키 183cm</p>
-      <p class="description">
+      <div class="intro-mark" aria-hidden="true">✦</div>
+      <p class="eyebrow">A STUDY IN MOTION</p>
+      <h1 id="profile-name">김주안<span class="dot">†</span></h1>
+      <p class="headline">183cm 68kg</p>
+      <p id="about" class="description">
         안녕하세요. 국립공주대학교 기계공학과에서 공부하고 있는 김주안입니다.<br>
         페이지를 한 번 만들어보았습니다 ㅋㅋ
       </p>
@@ -24,10 +35,10 @@
       </div>
     </section>
 
-    <aside class="details" aria-label="프로필 상세 정보">
+    <aside id="details" class="details" aria-label="프로필 상세 정보">
       <div class="details-heading">
-        <span class="status-dot" aria-hidden="true"></span>
-        <span>현재의 나</span>
+        <span>ARCHIVE / 001</span>
+        <span class="details-cross" aria-hidden="true">✚</span>
       </div>
 
       <dl class="profile-list">
